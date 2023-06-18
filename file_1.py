@@ -4,7 +4,7 @@ def my_Sqrtrt(x):
 
     left, right = 1, x
     while left <= right:
-        mid = (left + right) // 2
+        mid = (left + right) // 2 # getting round for remainder as single value
         if mid * mid > x:
             right = mid - 1
         else:
